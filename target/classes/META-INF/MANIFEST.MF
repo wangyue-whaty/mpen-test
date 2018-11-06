@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: mpen-api
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: wangyue
+Implementation-Vendor-Id: com.mpen
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/mpen-api/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

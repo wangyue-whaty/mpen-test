@@ -1,0 +1,119 @@
+{
+    "questionAnswers": [
+        {
+            "answerCodes": [
+                {
+                    "relatedCodes": {
+                        "shCodes": [
+                            {
+                                "code": 557134,
+                                "subType": 16
+                            },
+                            {
+                                "code": 10332,
+                                "subType": 16
+                            }
+                        ]
+                    },
+                    "hotarea": {
+                        "pageNum": 17,
+                        "rects": [
+                            [
+                                524,
+                                221,
+                                531,
+                                226
+                            ],
+                            [
+                                531,
+                                216,
+                                553,
+                                242
+                            ],
+                            [
+                                553,
+                                211,
+                                560,
+                                242
+                            ],
+                            [
+                                560,
+                                216,
+                                702,
+                                242
+                            ],
+                            [
+                                702,
+                                211,
+                                716,
+                                242
+                            ],
+                            [
+                                716,
+                                216,
+                                751,
+                                242
+                            ]
+                        ]
+                    },
+                    "playCodeOwnVoice": false
+                },
+                {
+                    "relatedCodes": {
+                        "shCodes": [
+                            {
+                                "code": 557135,
+                                "subType": 16
+                            },
+                            {
+                                "code": 10335,
+                                "subType": 16
+                            }
+                        ]
+                    },
+                    "hotarea": {
+                        "pageNum": 17,
+                        "rects": [
+                            [
+                                680,
+                                268,
+                                695,
+                                304
+                            ],
+                            [
+                                695,
+                                273,
+                                893,
+                                304
+                            ]
+                        ]
+                    },
+                    "playCodeOwnVoice": false
+                }
+            ],
+            "numGoodAnswersToPass": 1,
+            "isAnswerOrdered": false,
+            "correctVoices": [
+                "p_03",
+                "p_04",
+                "p_05"
+            ],
+            "wrongVoices": [
+                "p_07",
+                "p_08",
+                "p_09"
+            ],
+            "choosenVoices": [
+                "p_06"
+            ],
+            "allowWrongNum": 10
+        }
+    ],
+    "numQuestionsToAnswer": 1,
+    "isQuestionOrdered": true,
+    "isUserDefinedOrder": false,
+    "welcomeVoice": "g_00",
+    "successEndVoice": "p_01",
+    "failureEndVoice": "p_02",
+    "leaveGameVoice": "p_00"
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+<div class="container">
+</div>
+</body>
+<script src="jquery-1.8.3.min.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            type:"GET",
+            url:"/v1/questions/items",
+            dataType:"json",
+            success:function(json){
+               var arr = json.data;
+               for(var i=0;i<arr.length;i++){
+                  var $div = $("<div class='item'></div>");
+                  var $p = $("<p>"+arr[i].item.name+"</p>");
+                  $div.append($p);
+                  var $ul = $("<ul></ul>");
+                  var questions = arr[i].questionList;
+                  for(var j=0;j<questions.length;j++){
+                     var $li = $("<li>"+questions[j].question+"<span class='rigth-arrow'></span></li>");
+                     $li.attr("id",questions[j].id);
+                     $ul.append($li);
+                  }
+                  $div.append($ul);
+                  $(".container").append($div);
+               }
+               $("li").click(function(){
+                  window.location.href="question.html?id="+$(this).attr("id");
+               });
+            }
+         });
+    });
+</script>
+</html>

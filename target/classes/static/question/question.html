@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="page2">
+    <p class="title"></p>
+    <div class="textContent">
+    </div>
+</div>
+</body>
+<style>
+    html,body{
+        padding: 0;
+        margin: 0;
+        background-color: #fff;
+    }
+</style>
+<script src="jquery-1.8.3.min.js"></script>
+<script>
+    function getQueryString(name) { 
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+        var r = window.location.search.substr(1).match(reg); 
+        if (r != null) return unescape(r[2]); return null; 
+    }
+    var id = getQueryString("id");
+    
+    $(function(){
+        $.ajax({
+            type:"GET",
+            url:"/v1/questions/question/"+id,
+            dataType:"json",
+            success:function(json){
+                $(".title").text(json.data.question);
+                var arr = json.data.answer.split("\n");
+                for(var i=0;i<arr.length;i++){
+                    var $p = $("<p></p>");
+                    $p.text(arr[i]);
+                    $(".textContent").append($p);
+                }
+            }
+         });
+    });
+</script>   
+</html>

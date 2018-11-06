@@ -1,0 +1,201 @@
+{
+    "bookId": "0db4c7ea39f44afe8f74387f8289bb01",
+    "unitInfos": [
+        {
+            "name": "A",
+            "range": {
+                "startCode": 1,
+                "endCode": 54,
+                "subType": 1
+            }
+        },
+        {
+            "name": "B",
+            "range": {
+                "startCode": 55,
+                "endCode": 94,
+                "subType": 1
+            }
+        },
+        {
+            "name": "C",
+            "range": {
+                "startCode": 95,
+                "endCode": 177,
+                "subType": 1
+            }
+        },
+        {
+            "name": "D",
+            "range": {
+                "startCode": 178,
+                "endCode": 218,
+                "subType": 1
+            }
+        },
+        {
+            "name": "E",
+            "range": {
+                "startCode": 219,
+                "endCode": 262,
+                "subType": 1
+            }
+        },
+        {
+            "name": "F",
+            "range": {
+                "startCode": 263,
+                "endCode": 307,
+                "subType": 1
+            }
+        },
+        {
+            "name": "G",
+            "range": {
+                "startCode": 308,
+                "endCode": 333,
+                "subType": 1
+            }
+        },
+        {
+            "name": "H",
+            "range": {
+                "startCode": 334,
+                "endCode": 359,
+                "subType": 1
+            }
+        },
+        {
+            "name": "I",
+            "range": {
+                "startCode": 360,
+                "endCode": 379,
+                "subType": 1
+            }
+        },
+        {
+            "name": "J",
+            "range": {
+                "startCode": 380,
+                "endCode": 382,
+                "subType": 1
+            }
+        },
+        {
+            "name": "K",
+            "range": {
+                "startCode": 383,
+                "endCode": 386,
+                "subType": 1
+            }
+        },
+        {
+            "name": "L",
+            "range": {
+                "startCode": 387,
+                "endCode": 414,
+                "subType": 1
+            }
+        },
+        {
+            "name": "M",
+            "range": {
+                "startCode": 415,
+                "endCode": 451,
+                "subType": 1
+            }
+        },
+        {
+            "name": "N",
+            "range": {
+                "startCode": 452,
+                "endCode": 463,
+                "subType": 1
+            }
+        },
+        {
+            "name": "O",
+            "range": {
+                "startCode": 464,
+                "endCode": 482,
+                "subType": 1
+            }
+        },
+        {
+            "name": "P",
+            "range": {
+                "startCode": 483,
+                "endCode": 554,
+                "subType": 1
+            }
+        },
+        {
+            "name": "Q",
+            "range": {
+                "startCode": 555,
+                "endCode": 556,
+                "subType": 1
+            }
+        },
+        {
+            "name": "R",
+            "range": {
+                "startCode": 557,
+                "endCode": 613,
+                "subType": 1
+            }
+        },
+        {
+            "name": "S",
+            "range": {
+                "startCode": 614,
+                "endCode": 737,
+                "subType": 1
+            }
+        },
+        {
+            "name": "T",
+            "range": {
+                "startCode": 738,
+                "endCode": 778,
+                "subType": 1
+            }
+        },
+        {
+            "name": "U",
+            "range": {
+                "startCode": 779,
+                "endCode": 791,
+                "subType": 1
+            }
+        },
+        {
+            "name": "V",
+            "range": {
+                "startCode": 792,
+                "endCode": 808,
+                "subType": 1
+            }
+        },
+        {
+            "name": "W",
+            "range": {
+                "startCode": 809,
+                "endCode": 839,
+                "subType": 1
+            }
+        },
+        {
+            "name": "Y",
+            "range": {
+                "startCode": 840,
+                "endCode": 840,
+                "subType": 1
+            }
+        }
+    ],
+    "version": {
+        "updateTime": 1497520912,
+        "formatVersion": 65542
+    }
+}

@@ -1,0 +1,57 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.item p{
+    font-size: 13px;
+    color:#666;
+    height: 39px;
+    line-height: 39px;
+    margin: 0;
+    padding-left: 13px;
+}
+.item ul{
+    background-color: #fff;
+    margin: 0;
+    padding-left: 13px;
+}
+.item ul li{
+    list-style: none;
+    color:#333;
+    font-size: 14px;
+    line-height: 24px;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+    padding:10px 36px 10px 0;
+}
+.item ul li:last-child{
+    border-bottom: 0;
+}
+.item ul li .rigth-arrow{
+    position: absolute;
+    width: 36px;
+    height: 100%;
+    right: 0;
+    top:0;
+    background: url("icon-R.png") no-repeat center ;
+    background-size:8px;
+}
+.page2{
+    padding: 0 13px;
+}
+.page2 p.title{
+    font-size: 16px;
+    color: #222;
+    font-weight: bold;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px 0;
+    line-height: 49px;
+    margin: 0;
+}
+.page2 .textContent{
+    font-size: 14px;
+    color: #333;
+    line-height: 26px;
+    padding-top: 8px;
+}

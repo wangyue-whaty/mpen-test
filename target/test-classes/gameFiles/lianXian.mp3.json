@@ -1,0 +1,167 @@
+{
+  "questionAnswers": [
+    {
+      "questionVoice": "g_01",
+      "answerCodes": [
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557237,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        },
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557238,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        }
+      ],
+      "numGoodAnswersToPass": 2,
+      "isAnswerOrdered": true,
+      "correctAnwseredVoice": "g_02",
+      "wrongVoices": [
+        "p_08",
+        "p_09",
+        "p_10"
+      ],
+      "choosenVoices": [
+        "p_11"
+      ],
+      "allowWrongNum": 3
+    },
+    {
+      "questionVoice": "g_03",
+      "answerCodes": [
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557239,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        },
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557240,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        }
+      ],
+      "numGoodAnswersToPass": 2,
+      "isAnswerOrdered": true,
+      "correctAnwseredVoice": "g_04",
+      "wrongVoices": [
+        "p_08",
+        "p_09",
+        "p_10"
+      ],
+      "choosenVoices": [
+        "p_11"
+      ],
+      "allowWrongNum": 3
+    },
+    {
+      "questionVoice": "g_05",
+      "answerCodes": [
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557084,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        },
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557085,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        }
+      ],
+      "numGoodAnswersToPass": 2,
+      "isAnswerOrdered": true,
+      "correctAnwseredVoice": "g_06",
+      "wrongVoices": [
+        "p_08",
+        "p_09",
+        "p_10"
+      ],
+      "choosenVoices": [
+        "p_11"
+      ],
+      "allowWrongNum": 3
+    },
+    {
+      "questionVoice": "g_07",
+      "answerCodes": [
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557086,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        },
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557087,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": true
+        }
+      ],
+      "numGoodAnswersToPass": 2,
+      "isAnswerOrdered": true,
+      "correctAnwseredVoice": "g_08",
+      "wrongVoices": [
+        "p_08",
+        "p_09",
+        "p_10"
+      ],
+      "choosenVoices": [
+        "p_11"
+      ],
+      "allowWrongNum": 3
+    }
+  ],
+  "numQuestionsToAnswer": 4,
+  "isQuestionOrdered": true,
+  "isUserDefinedOrder": true,
+  "welcomeVoice": "g_00",
+  "successEndVoice": "p_02",
+  "failureEndVoice": "p_03",
+  "leaveGameVoice": "p_01"
+}

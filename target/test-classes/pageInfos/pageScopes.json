@@ -1,0 +1,13 @@
+[{
+	"codeStart": 0,
+	"codeEnd": 7256,
+	"subPages": "[{\"xCodeNum\":59,\"yCodeNum\":41,\"startCode\":{\"baseCode\":0,\"highCode\":0,\"size\":5},\"margin\":[0,0,5200,10750],\"num\":0},{\"xCodeNum\":59,\"yCodeNum\":41,\"startCode\":{\"baseCode\":2419,\"highCode\":0,\"size\":5},\"margin\":[2362,4724,2838,6026],\"num\":1},{\"xCodeNum\":59,\"yCodeNum\":41,\"startCode\":{\"baseCode\":4838,\"highCode\":0,\"size\":5},\"margin\":[4724,9448,476,1302],\"num\":2}]"
+}, {
+	"codeStart": 0,
+	"codeEnd": 21699,
+	"subPages": "[{\"xCodeNum\":124,\"yCodeNum\":175,\"startCode\":{\"baseCode\":0,\"highCode\":0,\"size\":5},\"margin\":[0,0,0,30],\"num\":0}]"
+}, {
+	"codeStart": 0,
+	"codeEnd": 21699,
+	"subPages": "[{\"xCodeNum\":124,\"yCodeNum\":175,\"startCode\":{\"baseCode\":0,\"highCode\":0,\"size\":5},\"margin\":[0,0,0,30],\"num\":0}]"
+}]

@@ -1,0 +1,53 @@
+{
+  "questionAnswers": [
+    {
+      "answerCodes": [
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557204,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": false
+        },
+        {
+          "relatedCodes": {
+            "shCodes": [
+              {
+                "code": 557205,
+                "subType": 16
+              }
+            ]
+          },
+          "playCodeOwnVoice": false
+        }
+      ],
+      "numGoodAnswersToPass": 1,
+      "isAnswerOrdered": false,
+      "correctVoices": [
+        "p_04",
+        "p_05",
+        "p_06"
+      ],
+      "wrongVoices": [
+        "p_08",
+        "p_09",
+        "p_10"
+      ],
+      "choosenVoices": [
+        "p_07"
+      ],
+      "allowWrongNum": 10
+    }
+  ],
+  "numQuestionsToAnswer": 1,
+  "isQuestionOrdered": true,
+  "isUserDefinedOrder": false,
+  "welcomeVoice": "g_00",
+  "successEndVoice": "p_02",
+  "failureEndVoice": "p_03",
+  "leaveGameVoice": "p_01"
+}
