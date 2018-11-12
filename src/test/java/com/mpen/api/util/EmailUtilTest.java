@@ -17,7 +17,7 @@ public class EmailUtilTest {
     @Test
     public void sendHtmlEmail() throws MessagingException {
         String subject = "This is a HTML content email";
-        String content = "<h1>This is HTML content email </h1>";
+        String content = "<h1>This is test content email </h1>";
         emailUtil.sendHtmlEmail(subject, content);
     }
 }
